@@ -20,7 +20,7 @@ export class Extension {
 }
 
 export class Project {
-  public static readonly namePrefix = "fxui";
+  public static readonly namePrefix = "afxui";
 }
 
 export class TeamsFxProject {
