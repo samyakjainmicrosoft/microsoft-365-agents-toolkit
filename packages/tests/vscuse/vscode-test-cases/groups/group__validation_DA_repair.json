@@ -24,7 +24,7 @@
     "tags": [
       "group"
     ],
-    "updated_at": "2025-11-07T08:38:56.527952"
+    "updated_at": "2025-11-07T13:12:57.188267"
   },
   "steps": [
     {
@@ -36,7 +36,7 @@
         "x": 396,
         "y": 411
       },
-      "description": "Click inside the \"Message Copilot\" text input box in the vsuse_app_DFhTWdev chat interface of the M365 Copilot web application to focus the cursor and enable message typing.",
+      "description": "Click inside the \"Message Copilot\" text input box in the chat interface of the M365 Copilot web application to focus the cursor and enable message typing.",
       "content_refs": [],
       "timeout": 30,
       "retry_count": 0,
@@ -60,7 +60,7 @@
       "parameters": {
         "text": "show repair records assigned to karin blair"
       },
-      "description": "Type \"show repair records assigned to karin blair\" into the main chat input box at the bottom of the vscuse_app_DFhTWdev agent interface in the M365 Copilot web application.",
+      "description": "Type \"show repair records assigned to karin blair\" into the main chat input box at the bottom of the agent interface in the M365 Copilot web application.",
       "content_refs": [],
       "timeout": 30,
       "retry_count": 0,
