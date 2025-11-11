@@ -152,6 +152,7 @@ async function main() {
     }
   }
 
+  try{
   console.log(`clean SharePoint app package files`);
   const sharePointCleanService = await SharePointApiCleanHelper.create(
     Env.cleanTenantId,
@@ -177,6 +178,10 @@ async function main() {
       }
     }
   }
+  }catch(e){
+    console.log(`failed to clean up SharePoint app package files, ${e.message}`);
+  }
+
 
   console.log(`clean dev tunnel`);
   const devTunnelCleanHelper = await DevTunnelCleanHelper.create(
